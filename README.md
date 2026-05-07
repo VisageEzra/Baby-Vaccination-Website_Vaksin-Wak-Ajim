@@ -51,9 +51,6 @@ We followed a **Waterfall methodology** for this, moving from database schema de
 ---
 
 ## Project Structure (Quick overview)
----
-
-## Project Structure (Quick overview)
 ```
 /WEBSITES
 ├── index.php             # Dynamic homepage with live Doctor lists
