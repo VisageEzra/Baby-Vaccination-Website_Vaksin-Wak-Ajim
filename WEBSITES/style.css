@@ -1,0 +1,243 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* --- Layout Helpers --- */
+
+
+section,
+.dashboard-section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid #b3e5fc;
+}
+
+/* Container for the dashboard content to center things */
+.dashboard-container {
+    display: block;
+    text-align: center;
+}
+
+
+.spacer {
+    height: 20px;
+}
+
+/* --- Header Styling  */
+
+
+.main-header {
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+
+/* Flex container untuk header assign kanan kiri */
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-left {
+    flex: 0 0 auto;
+}
+
+
+.header-right {
+    text-align: right;
+}
+
+/* Styling utk logo*/
+.header-logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Styling utk navigation link kat header */
+.header-link {
+    color: #0277bd;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Vertical separator line kat  header */
+.separator {
+    margin: 0 10px;
+    color: #666;
+}
+
+
+.welcome-text {
+    color: #333;
+}
+
+/*  divider line kat bawah header */
+.header-divider {
+    border: none;
+    height: 3px;
+    background-color: #90caf9;
+    margin: 0;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+
+
+/* Styling for all headings */
+h1,
+h2,
+h3 {
+    color: #01579b;
+    margin-top: 0;
+}
+
+/* General link styling */
+a {
+    color: #0277bd;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* --- Tables --- */
+
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border: 2px solid #b3e5fc;
+}
+
+/* styling utk children table to match original width */
+.children-table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Specific styling for the appointments table */
+.appointments-table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table header cells */
+th {
+    background-color: #e1f5fe;
+    color: #0277bd;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #b3e5fc;
+}
+
+/* Table data cells */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e1f5fe;
+}
+
+/* Message when there is no data */
+.no-data {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #666;
+}
+
+/* --- Buttons --- */
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+
+.btn-primary {
+    background-color: #4fc3f7;
+    border: 2px solid #29b6f6;
+}
+
+/* Specific adjustments for large call-to-action buttons */
+.add-baby-btn,
+.make-appt-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Container for appointment action buttons */
+.appointment-actions {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Action buttons (Edit/Cancel) generic style */
+.action-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* Edit button specific style */
+.edit-btn {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    color: #666;
+}
+
+/* Cancel button specific style */
+.cancel-btn {
+    background-color: #ffcccc;
+    border: 1px solid #ffcdd2;
+    color: red;
+}
+
+/* Link wrapping action buttons */
+.action-link {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* --- Inputs --- */
+
+/* Styling dekat text inputs, select boxes, and textareas */
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 2px solid #b3e5fc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 5px 0;
+    background-color: #fafafa;
+}
+
+/* --- Images --- */
+
+/* Styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #e1f5fe;
+}
